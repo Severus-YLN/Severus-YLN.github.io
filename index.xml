@@ -1,45 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://Severus-YLN.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jun 2022 08:16:00 +0800</lastBuildDate><atom:link href="http://Severus-YLN.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>卷积神经网络基础</title>
-      <link>http://Severus-YLN.github.io/post/blog/</link>
-      <pubDate>Wed, 08 Jun 2022 08:16:00 +0800</pubDate>
-      
-      <guid>http://Severus-YLN.github.io/post/blog/</guid>
-      <description>图像分类：
-LeNet
-AlexNet
-VggNet
-GoogLeNet
-ResNet
-目标检测：
-Faster R-CNN
-SSD
-Yolo　ｖ３
-图像分割：
-卷积神经网络基础：
-卷积神经网络
-全连接层：　BP
-卷积层：１，局部感知机制
-​	２，权值共享　​	卷积越界的情况：输入图片大小W＊Ｗ　，filter大小F＊F，步长S，padding的像素P
-​	经过卷积后矩阵尺寸大小为：
-​	N＝（W－F＋２P）／Ｓ＋１
-池化层：Max Pooling下采样层，Average Pooling下采样层
-​	目的：对特征图进行稀疏处理，减少数据运算量。
-​	特点：没有训练参数；只改变特征矩阵的ｗ和ｈ，不改变channel；一般池化核大小和步长相同。
-反向传播：
-​	误差的计算，　​	误差的反向传播
-在本文中我们研究了新类发现的问题（NCD）。NCD 旨在利用包含不同但相 关类的标记集的先验知识，在未标记集中推断新的对象类别。与传统的半监督学 习相比，这是一个更现实、更具挑战性的任务。现有的方法大多是通过考虑多个目 标函数来解决这个问题，通常分别涉及标记样本和未标记样本的特殊损失项，并 且通常需要辅助正则化项。在本文中，我们在传统的方案的基础上，引入了一个 统一的目标函数（UNO）来发现新的类别，目的是支持监督和非监督学习之间的 协同。使用多视图自标记策略生成伪标签，这些伪标签可以与真值标签进行均匀 处理。这就构造了一个单一的分类目标，既适用于已知的类别，也适用于未知的 类别。
-本文还使用了更强大的数据增广策略以及 multi-crop 的方法，通过更长时间的训练来提高它的表现。尽管它很简单，但 UNO 在几个基准上都以显著优势超越了 最先进的水平。
-In this paper , we study the problem of Novel Class Discovery (NCD). NCD aims at inferring novel object categories in an unlabeled set by leveraging from prior knowledge of a labeled set containing different, but related classes.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>My New Hugo Site</title>
+        <link>https://Severus-YLN.github.io/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 Jun 2022 22:33:10 &#43;0800</lastBuildDate>
+            <atom:link href="https://Severus-YLN.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>https://Severus-YLN.github.io/first_post/</link>
+    <pubDate>Wed, 08 Jun 2022 22:33:10 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://Severus-YLN.github.io/first_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
